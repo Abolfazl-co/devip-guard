@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+uploads/
+*.onnx
+*.log
+*.db
+*.sqlite3
+*.pkl
+
+# Sensitive
+.env
+*.pem
+*.key
+*.crt
+
+# Temporary files
+temp/
+tmp/
+*.tmp
