@@ -167,19 +167,19 @@ class ModelConfig:
 # انواع مدل‌های موجود
 MODEL_TYPES: Dict[str, ModelConfig] = {
     'd': ModelConfig(
-        url="https://github.com/AbolfazlZarei-dev/devip-guard/devip_guard_model/devip_guard_model.onnx",
+        url="https://github.com/AbolfazlZarei-dev/devip-guard/releases/download/v1.0.0/devip_guard_model.onnx",
         filename="devip_guard_model.onnx",
         dim=224,
         description="مدل پیش‌فرض MobileNet V2"
     ),
     'm2': ModelConfig(
-        url="https://github.com/AbolfazlZarei-dev/devip-guard/devip_guard_model/devip_guard_m2model.onnx",
+        url="https://github.com/AbolfazlZarei-dev/devip-guard/releases/download/v1.0.0/devip_guard_m2model.onnx",
         filename="devip_guard_m2model.onnx",
         dim=224,
         description="مدل بهینه‌شده MobileNet V2"
     ),
     'i3': ModelConfig(
-        url="https://github.com/AbolfazlZarei-dev/devip-guard/devip_guard_model/devip_guard_i3model.onnx",
+        url="https://github.com/AbolfazlZarei-dev/devip-guard/releases/download/v1.0.0/devip_guard_i3model.onnx",
         filename="devip_guard_i3model.onnx",
         dim=299,
         description="مدل Inception V3 (دقت بالاتر)"
