@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devip-guard"
+version = "1.0.0"
+description = "کتابخانه حرفه‌ای تشخیص محتوای نامناسب در تصاویر، گیف و ویدیو"
+readme = "README.md"
+authors = [{name = "Abolfazl Zarei", email = "abolfazlzarei.dev@gmail.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "opencv-python>=4.5.0",
+    "pillow>=9.0.0",
+    "numpy>=1.21.0",
+    "onnxruntime>=1.12.0",
+    "python-multipart>=0.0.6",
+    "requests>=2.28.0",
+    "jinja2>=3.0.0",
+]
+[project.urls]
+Homepage = "https://github.com/AbolfazlZarei-dev/devip-guard"
+Repository = "https://github.com/AbolfazlZarei-dev/devip-guard.git"
