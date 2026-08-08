@@ -1,5 +1,0 @@
-tf2onnx
-1.16.1 15c810:���*
-�
-input_1CStatefulPartitionedCall/model_1/activation_1/Relu_BiasAdd__5__198:0AStatefulPartitionedCall/model_1/activation_1/Relu_BiasAdd__5__198"	Transpose*
-perm@
